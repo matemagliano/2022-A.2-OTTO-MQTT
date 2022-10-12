@@ -34,6 +34,10 @@ El Robot Otto esta conformado por 4 motores servo y un microcontrolador NodeMCU 
 * Avoid obstacles
 
 
-<!-- PROJECT SHIELDS -->
+## Licencia
+Distribuido bajo GPL v3.0 License.
+
+<!-- PROJECT SHIELDS 
 [![Issues][issues-shield]][issues-url]
-[![GPL3 License][license-shield]][license-url]
+[![GPL3 License][license-shield]][license-url]  -->
+
