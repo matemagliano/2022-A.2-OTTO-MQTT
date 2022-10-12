@@ -5,6 +5,7 @@
   <p align="center">
     Robot Otto 
 </div>
+
 ## Acerca del Proyecto
 El proyecto propuesto consiste en implementar un total de 20 movimientos del robot y una interfaz web basada en Python Flask que permita al usuario controlar el robot Otto DIY mediante botones, la comunicación entre ambas partes del proyecto, software y hardware, se implementará simultáneamente con dos mecanismos de comunicación similares (Eclipse Mosquitto y Kafka).
 El Robot Otto esta conformado por 4 motores servo y un microcontrolador NodeMCU con integrado ESP8266. 
