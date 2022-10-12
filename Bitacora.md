@@ -34,18 +34,18 @@
 
 ## 8 de Octubre
 * Se montó el broker MQTT con el protocolo mosquitto en Docker. Se intentó con el siguiente código:
-mosquitto.conf
-  persistence true
-  persistence_location /mosquitto/data/
-  log_dest file /mosquitto/log/mosquitto.log
+mosquitto.conf<br>
+  persistence true<br>
+  persistence_location /mosquitto/data/<br>
+  log_dest file /mosquitto/log/mosquitto.log<br>
 
-No se conecta, entonces lo intentamos con :
+No se conecta, entonces lo intentamos con :<br>
 
-allow_anonymous true
-listener 1883
-persistence true
-persistence_location /mosquitto/data/
-log_dest file /mosquitto/log/mosquitto.log
+allow_anonymous true<br>
+listener 1883<br>
+persistence true<br>
+persistence_location /mosquitto/data/<br>
+log_dest file /mosquitto/log/mosquitto.log<br>
 
 * Se comprobó la comunicación con dos aplicaciones: MQTT Explorer en una computadora y con MQTT Client en un teléfono móvil.
 * Se levantó un access point con la computadora.
