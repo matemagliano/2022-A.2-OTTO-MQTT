@@ -33,7 +33,21 @@
 * Se armó el Otto.
 
 ## 8 de Octubre
-* Se montó el broker MQTT con el protocolo mosquitto en Docker. Se comprobó la comunicación con dos aplicaciones: MQTT Explorer en una computadora y con MQTT Client en un teléfono móvil.
+* Se montó el broker MQTT con el protocolo mosquitto en Docker. Se intentó con el siguiente código:
+mosquitto.conf
+  persistence true
+  persistence_location /mosquitto/data/
+  log_dest file /mosquitto/log/mosquitto.log
+
+No se conecta, entonces lo intentamos con :
+
+allow_anonymous true
+listener 1883
+persistence true
+persistence_location /mosquitto/data/
+log_dest file /mosquitto/log/mosquitto.log
+
+* Se comprobó la comunicación con dos aplicaciones: MQTT Explorer en una computadora y con MQTT Client en un teléfono móvil.
 * Se levantó un access point con la computadora.
 
 ## 10 de Octubre
