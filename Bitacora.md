@@ -33,6 +33,9 @@
 * Se armó el Otto.
 
 ## 8 de Octubre
+
+## 31 de Octubre
+* Se realizo la conexion entre el broker MQTT y un cliente en el ESP8266 para que responda a un mensaje.
 * Se montó el broker MQTT con el protocolo mosquitto en Docker. Se intentó con el siguiente código:
 mosquitto.conf<br>
   persistence true<br>
